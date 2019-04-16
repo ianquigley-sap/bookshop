@@ -1,6 +1,13 @@
 {
   "authenticationMethod": "none",
-  "routes": [{
+  "routes": [
+    {
+      "source": "^/catalog(.*)$",
+      "target": "/catalog$1",
+      "destination": "odata",
+      "csrfProtection": false
+    },
+    {
     "source": "^(.*)",
     "localDir": "webapp"
   }]

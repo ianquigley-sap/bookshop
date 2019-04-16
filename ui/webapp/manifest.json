@@ -17,7 +17,7 @@
         },
         "dataSources": {
             "bookshopsrv": {
-                "uri": "/cheaply-notable-dinosaur-ws/bookshop/catalog/",
+                "uri": "/catalog/",
                 "type": "OData",
                 "settings": {
                     "localUri": "localService/metadata.xml",
