@@ -1,14 +1,25 @@
 {
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "start ui",
+            "cwd": "/home/webide/projects/bookshop/ui/",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run-script", "start"
+            ],
+            "envFile": "${workspaceFolder}/ui/.env",
+            "port": 5000
+        },
         {
             "name": "cds run",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceFolder}/.vscode/cds", "args": [ "run" ],
+            "program": "/home/webide/projects/.theia/cds", "args": [ "run" ],
             "skipFiles": [
                 "<node_internals>/**/*.js",
                 "**/cds-reflect/lib/index.js",
