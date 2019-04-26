@@ -1,12 +1,6 @@
 namespace my.bookshop;
-using { Country, managed } from '@sap/cds/common';
  
-entity Books {
-  key ID : Integer;
-  title  : localized String;
-  author : Association to Authors;
-  stock  : Integer;
-}
+
  
 entity Authors {
   key ID : Integer;
@@ -14,9 +8,16 @@ entity Authors {
   books  : Association to many Books on books.author = $self;
 }
  
-entity Orders : managed {
+ entity Books {
+  key ID : Integer;
+  title  : String;
+  author : Association to Authors;
+  stock  : Integer;
+}
+
+entity Orders  {
   key ID  : UUID;
   book    : Association to Books;
-  country : Country;
+  country : String;
   amount  : Integer;
 }

@@ -12,7 +12,7 @@
     "db"
   ],
   "dependencies": {
-    "@sap/cds": "^3.5.2",
+    "@sap/cds": "^3.8.0",
     "express": "^4.16.4"
   },
   "scripts": {
