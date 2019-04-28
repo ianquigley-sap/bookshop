@@ -1,8 +1,9 @@
 namespace my.bookshop;
 entity Authors {
   key ID : Integer;
-  name : String;
-}
+  firstName : String;
+  lastName : String;
+};
 
 entity Books {
   key ID : Integer;
@@ -16,4 +17,4 @@ entity Orders {
   book    : Association to Books;
   country : String;
   amount : Integer;
-}
+};

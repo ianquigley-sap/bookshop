@@ -4,9 +4,9 @@
 		<pages>
 			<Page title="{i18n>title}">
 				<content>  
-                    <List noDataText="Drop list items here" id="list0" items="{/Books}">
+                    <List noDataText="Drop list items here" id="list0" items="{/Authors}">
                         <items>
-                            <StandardListItem type="Navigation" title="{title}" description="{stock}" icon="sap-icon://picture" id="item0"/>
+                            <StandardListItem type="Navigation" title="{firstName} {lastName}" description="{ID}" icon="sap-icon://picture" id="item0"/>
                         </items>
                     </List>
                 </content>

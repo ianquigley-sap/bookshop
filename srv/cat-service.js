@@ -10,10 +10,10 @@ module.exports = (srv)=>{
   // (actually not required, just as a showcase)
   srv.on ('READ','Books', SELECT.from(Books))
  
-  // Add some discount for overstocked books
-  srv.after ('READ','Books', (each)=>{
-    if (each.stock > 111) each.title += ' -- 11% discount!'
-  })
+  // // Add some discount for overstocked books
+  // srv.after ('READ','Books', (each)=>{
+  //   if (each.stock > 111) each.title += ' -- 11% discount!'
+  // })
  
   // Reduce stock of books upon incoming orders
   srv.before ('CREATE','Orders', async (req)=>{
