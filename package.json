@@ -13,9 +13,21 @@
   ],
   "dependencies": {
     "@sap/cds": "^3.8.0",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "npm-watch": "^0.6.0"
+  },
+  "watch": {
+    "run_cds": {
+      "patterns": [
+        "./db/*.*"
+      ],
+      "extensions": "cds,csv",
+      "quiet": false
+    }
   },
   "scripts": {
+    "watch": "npm-watch run_cds",
+    "run_cds": "cds deploy && cds run",
     "start": "cds run",
     "build": "cds build/all --clean",
     "deploy": "cds deploy"
