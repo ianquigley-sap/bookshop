@@ -1,2 +1,2 @@
-/catalog/$metadata              /mock/metadata.html
-/catalog/Authors                /mock/authors.html
+/catalog/$metadata              /mock/metadata.html 200
+/catalog/Authors                /mock/authors.html  200
