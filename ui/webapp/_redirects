@@ -1,2 +1,2 @@
 /catalog/$metadata              /mock/metadata.html
-/catalog/Authors?$skip=0&$top=100   /mock/authors.html
+/catalog/Authors                /mock/authors.html
