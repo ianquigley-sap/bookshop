@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+var ls = require('ls');
 
 exports.handler = async (event, context) => {
   return {
@@ -19,6 +20,14 @@ function getMetadata() {
     "localService",
     "metadata.xml"
   );
-  const metadata = fs.readFileSync(__dirname + '/arse.txt', "utf8");
+  console.log('h1');
+  const l = ls(__dirname + '/*');
+  console.log(l);
+  // for (var file of ls(__dirname)) {
+  //   console.log('h2');
+  //   console.log(file.name)
+  // }  
+  console.log('h3');
+  const metadata = fs.readFileSync("." + metadataPath, "utf8");
   return metadata;
 }
