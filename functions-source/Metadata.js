@@ -1,6 +1,13 @@
 const fs = require("fs");
 const path = require("path");
-var ls = require('ls');
+var metadataPath = path.join(
+  __dirname,
+  "ui",
+  "webapp",
+  "localService",
+  "metadata.xml"
+);
+const metadata = fs.readFileSync("." + metadataPath, "utf8");
 
 exports.handler = async (event, context) => {
   return {
@@ -8,27 +15,6 @@ exports.handler = async (event, context) => {
     headers: {
       "Content-Type": "application/xml"
     },
-    body: getMetadata()
+    body: metadata
   };
 };
-
-function getMetadata() {
-  var metadataPath = path.join(
-    __dirname,
-    "ui",
-    "webapp",
-    "localService",
-    "metadata.xml"
-  );
-  console.log('h1');
-  const l = ls(__dirname + '/*');
-  console.log(l);
-  // for (var file of ls(__dirname)) {
-  //   console.log('h2');
-  //   console.log(file.name)
-  // }  
-  console.log('process env:');
-  console.log(process.env);
-  const metadata = fs.readFileSync("." + metadataPath, "utf8");
-  return metadata;
-}
