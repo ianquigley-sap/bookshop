@@ -19,6 +19,6 @@ function getMetadata() {
     "localService",
     "metadata.xml"
   );
-  const metadata = fs.readFileSync("." + metadataPath, "utf8");
+  const metadata = fs.readFileSync(".." + metadataPath, "utf8");
   return metadata;
 }
