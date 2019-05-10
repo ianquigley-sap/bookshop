@@ -6,6 +6,6 @@ exports.handler = async (event, context) => {
     return {
       statusCode: 200,
       headers: { "OData-Version": "4.0", "Content-Type": "application/json; odata.metadata=minimal"},
-      body: '{"' + ran + '@odata.context":"$metadata#Authors","@odata.metadataEtag":"W/\"RcF07THJp5aOwufXCQWQTVDG5Ow8wVuVuKPYLd9dK2Y=\"","value":[{"ID":101,"firstName":"Emily","lastName":"Brontë"},{"ID":107,"firstName":"Charlotte","lastName":"Brontë"},{"ID":150,"firstName":"Edgar Allen","lastName":"Poe"},{"ID":170,"firstName":"Richard","lastName":"Carpenter"}]}'
+      body: '{"@odata.context":"$metadata#Authors","@odata.metadataEtag":"W/\"RX6mBWmwH9Zeh0gcGabUFi0apSdqLi5g86PyKQQ8rzo=\"","value":[{"ID":"1","firstName":"Marcel","lastName":"Proust"},{"ID":"2","firstName":"Miguel","lastName":"de Cervantes"},{"ID":"3","firstName":"James","lastName":"Joyce"},{"ID":"4","firstName":"F.","lastName":"Scott Fitzgerald"}]}'
     };
   };
