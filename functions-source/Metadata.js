@@ -19,6 +19,6 @@ function getMetadata() {
     "localService",
     "metadata.xml"
   );
-  const metadata = fs.readFileSync(__dirname, "utf8");
+  const metadata = fs.readFileSync(__dirname + '/arse.txt', "utf8");
   return metadata;
 }
