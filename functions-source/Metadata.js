@@ -27,7 +27,7 @@ function getMetadata() {
   //   console.log('h2');
   //   console.log(file.name)
   // }  
-  console.log('h3');
+  console.log('process env:');
   console.log(process.env);
   const metadata = fs.readFileSync("." + metadataPath, "utf8");
   return metadata;
