@@ -1,2 +1,2 @@
-/catalog/$metadata              /localService/metadata.xml  200!
+/catalog/$metadata              /mock/metadata.xml  200!
 /catalog/Authors                /.netlify/functions/Author  200!

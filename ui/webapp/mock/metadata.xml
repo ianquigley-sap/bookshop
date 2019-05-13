@@ -1,0 +1,84 @@
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+<edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Capabilities.V1.xml">
+<edmx:Include Alias="Capabilities" Namespace="Org.OData.Capabilities.V1"/>
+</edmx:Reference>
+<edmx:DataServices>
+<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="CatalogService">
+<EntityContainer Name="EntityContainer">
+<EntitySet Name="Authors" EntityType="CatalogService.Authors"/>
+<EntitySet Name="Books" EntityType="CatalogService.Books">
+<NavigationPropertyBinding Path="author" Target="Authors"/>
+</EntitySet>
+<EntitySet Name="Orders" EntityType="CatalogService.Orders">
+<NavigationPropertyBinding Path="book" Target="Books"/>
+</EntitySet>
+</EntityContainer>
+<EntityType Name="Authors">
+<Key>
+<PropertyRef Name="ID"/>
+</Key>
+<Property Name="ID" Type="Edm.String" Nullable="false"/>
+<Property Name="firstName" Type="Edm.String"/>
+<Property Name="lastName" Type="Edm.String"/>
+</EntityType>
+<EntityType Name="Books">
+<Key>
+<PropertyRef Name="ID"/>
+</Key>
+<Property Name="ID" Type="Edm.String" Nullable="false"/>
+<Property Name="title" Type="Edm.String"/>
+<NavigationProperty Name="author" Type="CatalogService.Authors">
+<ReferentialConstraint Property="author_ID" ReferencedProperty="ID"/>
+</NavigationProperty>
+<Property Name="stock" Type="Edm.Int32"/>
+<Property Name="author_ID" Type="Edm.String"/>
+</EntityType>
+<EntityType Name="Orders">
+<Key>
+<PropertyRef Name="ID"/>
+</Key>
+<Property Name="ID" Type="Edm.String" Nullable="false"/>
+<NavigationProperty Name="book" Type="CatalogService.Books">
+<ReferentialConstraint Property="book_ID" ReferencedProperty="ID"/>
+</NavigationProperty>
+<Property Name="country" Type="Edm.String"/>
+<Property Name="amount" Type="Edm.Int32"/>
+<Property Name="book_ID" Type="Edm.String"/>
+</EntityType>
+<Annotations Target="CatalogService.EntityContainer/Authors">
+<Annotation Term="Capabilities.DeleteRestrictions">
+<Record Type="Capabilities.DeleteRestrictionsType">
+<PropertyValue Property="Deletable" Bool="false"/>
+</Record>
+</Annotation>
+<Annotation Term="Capabilities.InsertRestrictions">
+<Record Type="Capabilities.InsertRestrictionsType">
+<PropertyValue Property="Insertable" Bool="false"/>
+</Record>
+</Annotation>
+<Annotation Term="Capabilities.UpdateRestrictions">
+<Record Type="Capabilities.UpdateRestrictionsType">
+<PropertyValue Property="Updatable" Bool="false"/>
+</Record>
+</Annotation>
+</Annotations>
+<Annotations Target="CatalogService.EntityContainer/Books">
+<Annotation Term="Capabilities.DeleteRestrictions">
+<Record Type="Capabilities.DeleteRestrictionsType">
+<PropertyValue Property="Deletable" Bool="false"/>
+</Record>
+</Annotation>
+<Annotation Term="Capabilities.InsertRestrictions">
+<Record Type="Capabilities.InsertRestrictionsType">
+<PropertyValue Property="Insertable" Bool="false"/>
+</Record>
+</Annotation>
+<Annotation Term="Capabilities.UpdateRestrictions">
+<Record Type="Capabilities.UpdateRestrictionsType">
+<PropertyValue Property="Updatable" Bool="false"/>
+</Record>
+</Annotation>
+</Annotations>
+</Schema>
+</edmx:DataServices>
+</edmx:Edmx>
