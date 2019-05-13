@@ -1,3 +1,13 @@
 [build]
   functions = "functions"
-  publish = "ui/webapp"  
+  publish = "ui/webapp"
+
+[[redirects]]
+  from = "/catalog/$metadata"
+  to = "/mock/metadata.xml"
+  status = 200!
+
+[[redirects]]
+  from = "/catalog/Authors"
+  to = "/.netlify/functions/Author"
+  status = 200!  
