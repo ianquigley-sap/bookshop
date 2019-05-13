@@ -5,9 +5,9 @@
 [[redirects]]
   from = "/catalog/$metadata"
   to = "/mock/metadata.xml"
-  status = 200!
+  status = 200
 
 [[redirects]]
   from = "/catalog/Authors"
   to = "/.netlify/functions/Author"
-  status = 200!  
+  status = 200
