@@ -1,3 +1,27 @@
+# Deploying to Netlify
+
+The netlify.toml file has been added to support deploying the static UI to Netlify.  This file includes the following configuration:
+
+- `publish` the publish directory for the ui (in this case `ui\webapp`)
+- `functions` the location for all lambda functions that can be invoked.
+- `redirects` any redirects that netlify should perform.
+
+For this projects, the following redirects are in place:
+
+- From `/catalog/Authors` to `/.netlify/functions/Author`.  This function redirects the Authors lookup to a function.  Currently this function just returns a static list.
+- From `/catalog/$metadata` to `/mock/metadata.xml`.  This redirect links to a v4 version of the `localService\metadata.xml` file.   Linking directly to the `localService` version would have been preferable but the format doesn't seem to work with the UI.
+
+## Notes:
+
+- The functions you execute are hosted on AWS and don't have any access to the file system of your project.  Therefore, you can't read in any documents at run time that aren't already included with the function.
+- As mentioned above, would much rather link directly to `\localService\metadata.xml` but that version doesn't seem consumable in the UI.
+
+## Compiling functions
+
+The functions source is located in the `functions-source` directory.  The netlify lambda CLI needs to be installed (`npm i -g netlify-lambda`), and you can then run `netlify-lambda build functions-source` to compile the source function into the `functions` directory for productive use.
+
+Using `netlify-lambda serve functions-source` will compile the functions locally and make them available on port 9000 for local testing.  But please be aware that the file system available locally won't be available when deployed to Netlify.
+
 # Getting Started
 
 Welcome to your new project. It contains a few files and folders following our **recommended project layout**:
