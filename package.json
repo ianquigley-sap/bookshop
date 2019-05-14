@@ -12,10 +12,12 @@
     "db"
   ],
   "dependencies": {
-    "@sap/cds": "^3.8.0",
+    "@sap/cds": "^3.10.0-20190513082928-SNAPSHOT",
+    "chai": "^4.2.0",
     "express": "^4.16.4",
     "ls": "^0.2.1",
-    "npm-watch": "^0.6.0"
+    "npm-watch": "^0.6.0",
+    "serverless-http": "^2.0.1"
   },
   "watch": {
     "run_cds": {
@@ -48,7 +50,6 @@
     }
   },
   "devDependencies": {
-    "randomstring": "^1.1.5",
-    "sqlite3": "^4.0.6"
+    "randomstring": "^1.1.5"
   }
 }

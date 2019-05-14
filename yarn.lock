@@ -2,94 +2,100 @@
 # yarn lockfile v1
 
 
-"@sap/cds-compiler@1.11.0":
-  version "1.11.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/cds-compiler/-/cds-compiler-1.11.0.tgz#8d8facf131ded8df3a4dd3713ef5945b2313ab89"
-  integrity sha512-pZuQfCcqUPPyR0LTD0DYO2bP8S3loDnzlrKONC/GGgnx7RTm15Z1DO2WeHBQjAA235gnIcbijtGywLuBNedGuA==
+"@sap/cds-compiler@latest":
+  version "1.12.2-20190513095718-SNAPSHOT"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/cds-compiler/-/cds-compiler-1.12.2-20190513095718-SNAPSHOT.tgz#2e6e5c7aa7cf0fb9284d9f1ccfac351098f0d541"
+  integrity sha1-Lm5ceqfPD7koTZ8cz6w1EJjw1UE=
   dependencies:
     antlr4 "4.7.1"
     resolve "1.8.1"
     sax "1.2.4"
 
-"@sap/cds-hana@1.8.1":
-  version "1.8.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/cds-hana/-/cds-hana-1.8.1.tgz#16624b37d450805b6de8f91c847f419a77aaec54"
-  integrity sha512-CsAHcAJ+Zq8jtBCPztsyiI5bmSWGXNWQbk6idmxi1VRH7RTnNbrmqkXLusq/O7Yl/DRkn4ylErPkWXM0BoSPZA==
+"@sap/cds-hana@latest":
+  version "1.11.0-20190513073617-SNAPSHOT"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/cds-hana/-/cds-hana-1.11.0-20190513073617-SNAPSHOT.tgz#bef1e53ecca64597a46e29e0e136c02777c9561c"
+  integrity sha512-0CAK8k8wpzjb4J0wqd0sHq3KbDIyGSr6DYzywbBk+pp48QLTe2EHgmzcDSwORLpZ9FvODQkzCqcyUGIXuP1X6w==
   dependencies:
-    "@sap/cds-sql" "1.8.1"
+    "@sap/cds-sql" latest
 
-"@sap/cds-ql@1.8.1":
-  version "1.8.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/cds-ql/-/cds-ql-1.8.1.tgz#7099480675171b2356ae701a7be11f827b86357b"
-  integrity sha512-2/znA0dR3NwadxHgZskNscZLcRDkrgQMCwO+OvTmOe/4gUwJmP3YADEeHjOIf57/oVICWrL8W7AEGdUq9bNkxg==
+"@sap/cds-ql@latest":
+  version "1.11.0-20190513074826-SNAPSHOT"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/cds-ql/-/cds-ql-1.11.0-20190513074826-SNAPSHOT.tgz#3db1c13fe51aa983d91c0a35d2b854058dd5b9a8"
+  integrity sha512-I9TIb7W/HjQQIoiqOzWlyWd10cQs/ND6Di1Rhdmv0RRNX6sa3GZatL3qZSzz/Pkxi7ONo/BAIdhIW03BPS3GuA==
   dependencies:
-    "@sap/cds-hana" "1.8.1"
-    "@sap/cds-sql" "1.8.1"
-    "@sap/cds-sqlite" "1.8.1"
+    "@sap/cds-hana" latest
+    "@sap/cds-sql" latest
+    "@sap/cds-sqlite" latest
     generic-pool "3.4.2"
     uuid "3.3.2"
 
-"@sap/cds-reflect@2.4.1":
-  version "2.4.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/cds-reflect/-/cds-reflect-2.4.1.tgz#8e135bcc849793741e01ee499a4918a3403ab6ed"
-  integrity sha512-j4/uuVj29poLZW1xaSRiCbzA7NpUj51sWdPe4O8dAuwLDq/sYto5G88SGVNklmOsGEmGX7Yx8TcfpwohOrnDWA==
+"@sap/cds-reflect@latest":
+  version "2.6.0-20190513071225-SNAPSHOT"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/cds-reflect/-/cds-reflect-2.6.0-20190513071225-SNAPSHOT.tgz#9b4287f3b5e5db94bc651da85a60357f7f0fff99"
+  integrity sha512-/BNU7HX23e1fxG72p7GlCsjKOjQBnqPHkAXfbNjoCk025gUDAvjXnJT+iHGFoBLKGNmo2GE52on2KehpPErfhg==
 
-"@sap/cds-services@1.8.1":
-  version "1.8.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/cds-services/-/cds-services-1.8.1.tgz#bbf06dfd83940ef8f15e00167ff1d830b04c00da"
-  integrity sha512-RtCPDbKy2GHkXOb28iujAGijaIWkCYO25tZjE5AC3gN6x+5h9EEp34JPZg5G7OItDpqKeSfRXzYAXXyD2VNRtg==
+"@sap/cds-services@latest":
+  version "1.11.0-20190513093527-SNAPSHOT"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/cds-services/-/cds-services-1.11.0-20190513093527-SNAPSHOT.tgz#617d1fd547bf9372f47f839c2cc38ebffe427ca1"
+  integrity sha512-DBUWtWrPvXjb8M44BiHEW4miOYYtl0hCV2bcPl+qCH7orpr0MQuDGiDlhHwLBPL6ibQvUY0Ii9cvfMYGdnENGQ==
   dependencies:
-    "@sap/cds-ql" "1.8.1"
-    "@sap/odata-server" "^1.1.0"
+    "@sap/cds-ql" latest
+    "@sap/odata-server" "1.3.3"
 
-"@sap/cds-sql@1.8.1":
-  version "1.8.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/cds-sql/-/cds-sql-1.8.1.tgz#d3b7b72f89db00b39904a04f7015ab6ce475c8e6"
-  integrity sha512-+NXoLQZOW0ibw9EthVaGXgrlqyXxwTuPFBJIrE4m6ZIyktbv3n/E4GCyRi/ZGrGVUCPijoVF5AayklRkZwAR2w==
+"@sap/cds-sql@latest":
+  version "1.11.0-20190513072329-SNAPSHOT"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/cds-sql/-/cds-sql-1.11.0-20190513072329-SNAPSHOT.tgz#0adf19947f6dfd8f01551c01189ef2d7659d74fd"
+  integrity sha512-P6IRJL1gyV14PfPcsX/hNjy4JMkmtObHGCi5DCBHG5cPo9m3m0CWkEH1D3OAr9g+0diBQXVgPu257ipHgb1ldQ==
 
-"@sap/cds-sqlite@1.8.1":
-  version "1.8.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/cds-sqlite/-/cds-sqlite-1.8.1.tgz#39adb51d00b9dc1acc52d79c50a345224c1aabe7"
-  integrity sha512-y6575o0hV+tFwxNMm6/6gaW0M3KMHXsu3LEN8QFciOuCLH1uGOiMpUbmHFGS41ll5t98IRJ0cWiZX83Pt4b4Zg==
+"@sap/cds-sqlite@latest":
+  version "1.11.0-20190511011332-SNAPSHOT"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/cds-sqlite/-/cds-sqlite-1.11.0-20190511011332-SNAPSHOT.tgz#3ccf063b48999a3ed9ef92ef64e9568c1e33a495"
+  integrity sha512-1WzQwBsl0jiFvPKI0Cfle5EbQfiKjtnvFiCuLJaDXkuIJWBRfw4OPWapcQ9KcJyfkMZtYdRqtHeEiLfDaNYjZw==
   dependencies:
-    "@sap/cds-sql" "1.8.1"
+    "@sap/cds-sql" latest
 
-"@sap/cds@^3.8.0":
-  version "3.8.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/cds/-/cds-3.8.0.tgz#3b89df88d2ba550df362fb9547c76308661c5cc5"
-  integrity sha512-TRUHPv31id18KK0i2BZL8Xh5cL/cSFCfEURSSjDXtzA/Y95YaYHPFeuP7jqc4Em8UPzk6BH1v6SW75nf7r6PaQ==
+"@sap/cds@^3.10.0-20190513082928-SNAPSHOT":
+  version "3.10.0-20190513082928-SNAPSHOT"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/cds/-/cds-3.10.0-20190513082928-SNAPSHOT.tgz#208abcab6dbb593eeb4f41ef5ce8ef350269faef"
+  integrity sha512-WXrpiq60mwECZJGbjQEraJmXl3NPde8+dy+OldbCFxJWre4Tg9wdRBr1w132fw4exp8TeWkvnQl4qD/VeZxOvw==
   dependencies:
-    "@sap/cds-compiler" "1.11.0"
-    "@sap/cds-ql" "1.8.1"
-    "@sap/cds-reflect" "2.4.1"
-    "@sap/cds-services" "1.8.1"
-    "@sap/generator-cds" "2.4.5"
+    "@sap/cds-compiler" latest
+    "@sap/cds-ql" latest
+    "@sap/cds-reflect" latest
+    "@sap/cds-services" latest
+    "@sap/generator-cds" latest
     fs-extra "7.0.1"
+    yaml "1.2.0"
 
-"@sap/generator-cds@2.4.5":
-  version "2.4.5"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/generator-cds/-/generator-cds-2.4.5.tgz#755fbd3185e56160b620ce622ab91f37ff750e11"
-  integrity sha512-vj+rGNPdNdyXyPlq6SXsPatFXHJS+WCsomnoJxFU7+4ya08uwp31DR1hAnJ4txDO9SDVrNPEBAXYy4Pgr/C0mg==
+"@sap/generator-cds@latest":
+  version "2.4.8-SNAPSHOT-SNAPSHOT"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/generator-cds/-/generator-cds-2.4.8-SNAPSHOT-SNAPSHOT.tgz#0a72b50f668ee3e97f086179f9c16696b477d522"
+  integrity sha512-JzCVWmA/eI1T8cx/Q3jmynzFhSCF7/JvLvXpFX5xeKIC5ICh1L9NpwjYdHS/YKaj9FuraDtl25GCe2FXeRETNg==
   dependencies:
     fs-extra "7.0.1"
     minimist "1.2.0"
     xml2js "0.4.19"
     yaml "1.2.0"
 
-"@sap/odata-commons@^2.0.1":
-  version "2.0.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/odata-commons/-/odata-commons-2.0.1.tgz#0f96b72bae0275c1225359d47e4dfc67172cb347"
-  integrity sha512-wSJJvhrgaXXtxlT8H2Vm51MP1I4p9g4cakwOQ4fJCV6tPRGCNf3nwcG4WM+74WpERaFjiB4OlCi6OEt1LRdpwg==
+"@sap/odata-commons@^2.1.0":
+  version "2.1.0"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/odata-commons/-/odata-commons-2.1.0.tgz#53e5391de16516cf9ffb25e522eed9cd43943eac"
+  integrity sha512-xhvUito3IcTShyg5diV7ps2Nz2eS5Nx4d8z4f5S7dMd3+DETcN3BAdLt/QfHfyxGv7g2jeawRmoZo8ZgyD/FMQ==
   dependencies:
     big.js "=5.2.2"
 
-"@sap/odata-server@^1.1.0":
-  version "1.3.2"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/odata-server/-/odata-server-1.3.2.tgz#5ea33be5d6437bbbfff11004d1fd4f5a164eef4b"
-  integrity sha512-ihGonqeb69cxKPfCKEwp/EhizU1LJLYu2gSP5/17rDFXWS+JETRs1Hxl5JkhagywEhSOYEBg998Tex2V2d24kQ==
+"@sap/odata-server@1.3.3":
+  version "1.3.3"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.snapshots.npm/@sap/odata-server/-/odata-server-1.3.3.tgz#f6f023a8d6a8fc021429f1973534f36bbc552ae2"
+  integrity sha512-IH5+zIoidce9xsUO1HdDIWFlZmcDgoDDxdyC2luQNgXXtjBqYKOrF3jhjQWteCA2r9IbpYCqIj79ifsfhhpUIg==
   dependencies:
-    "@sap/odata-commons" "^2.0.1"
+    "@sap/odata-commons" "^2.1.0"
     xmlbuilder "=10.1.0"
+
+"@types/aws-lambda@^8.10.19":
+  version "8.10.25"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/@types/aws-lambda/-/aws-lambda-8.10.25.tgz#58e2ab411ea776ec7834510d5bb6f5d552423fcd"
+  integrity sha512-f2Y+2Ii/AsSuw7Yac6Ymk35Qe0Wk6b2KvZF1o4pieonCfhAZUclAKSHcVDmO3IMSROCDmJ6Q3PErMYDQ9kapDw==
 
 abbrev@1:
   version "1.1.1"
@@ -103,16 +109,6 @@ accepts@~1.3.5:
   dependencies:
     mime-types "~2.1.18"
     negotiator "0.6.1"
-
-ajv@^6.5.5:
-  version "6.10.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/ajv/-/ajv-6.10.0.tgz#90d0d54439da587cd7e843bfb7045f50bd22bdf1"
-  integrity sha512-nffhOpkymDECQyR0mnsUtoCE8RlX38G0rYP+wgLWFyZuUyuuojSSvi/+euOiQBIn63whYwYVIIH1TvE3tu4OEg==
-  dependencies:
-    fast-deep-equal "^2.0.1"
-    fast-json-stable-stringify "^2.0.0"
-    json-schema-traverse "^0.4.1"
-    uri-js "^4.2.2"
 
 ansi-align@^2.0.0:
   version "2.0.0"
@@ -184,22 +180,20 @@ array-flatten@1.1.1:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/array-flatten/-/array-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
   integrity sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
 
+array-uniq@1.0.2:
+  version "1.0.2"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/array-uniq/-/array-uniq-1.0.2.tgz#5fcc373920775723cfd64d65c64bef53bf9eba6d"
+  integrity sha1-X8w3OSB3VyPP1k1lxkvvU7+eum0=
+
 array-unique@^0.3.2:
   version "0.3.2"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/array-unique/-/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
   integrity sha1-qJS3XUvE9s1nnvMkSp/Y9Gri1Cg=
 
-asn1@~0.2.3:
-  version "0.2.4"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/asn1/-/asn1-0.2.4.tgz#8d2475dfab553bb33e77b54e59e880bb8ce23136"
-  integrity sha512-jxwzQpLQjSmWXgwaCZE9Nz+glAG01yF1QnWgbhGwHI5A6FRIEY6IVqtHhIepHqI7/kyEyQEagBC5mBEFlIYvdg==
-  dependencies:
-    safer-buffer "~2.1.0"
-
-assert-plus@1.0.0, assert-plus@^1.0.0:
-  version "1.0.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
-  integrity sha1-8S4PPF13sLHN2RRpQuTpbB5N1SU=
+assertion-error@^1.1.0:
+  version "1.1.0"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/assertion-error/-/assertion-error-1.1.0.tgz#e60b6b0e8f301bd97e5375215bda406c85118c0b"
+  integrity sha512-jgsaNduz+ndvGyFt3uSuWqvy4lCnIJiovtouQN5JZHOKCS2QuhEdbcQHFhVksz2N2U9hXJo8odG7ETyWlEeuDw==
 
 assign-symbols@^1.0.0:
   version "1.0.0"
@@ -211,25 +205,10 @@ async-each@^1.0.1:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/async-each/-/async-each-1.0.3.tgz#b727dbf87d7651602f06f4d4ac387f47d91b0cbf"
   integrity sha512-z/WhQ5FPySLdvREByI2vZiTWwCnF0moMJ1hK9YQwDTHKh6I7/uSckMetoRGb5UBZPC1z0jlw+n/XCgjeH7y1AQ==
 
-asynckit@^0.4.0:
-  version "0.4.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
-  integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
-
 atob@^2.1.1:
   version "2.1.2"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
-
-aws-sign2@~0.7.0:
-  version "0.7.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
-  integrity sha1-tG6JCTSpWR8tL2+G1+ap8bP+dqg=
-
-aws4@^1.8.0:
-  version "1.8.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
-  integrity sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -248,13 +227,6 @@ base@^0.11.1:
     isobject "^3.0.1"
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
-
-bcrypt-pbkdf@^1.0.0:
-  version "1.0.2"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz#a4301d389b6a43f9b67ff3ca11a3f6637e360e9e"
-  integrity sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
-  dependencies:
-    tweetnacl "^0.14.3"
 
 big.js@=5.2.2:
   version "5.2.2"
@@ -349,10 +321,24 @@ capture-stack-trace@^1.0.0:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/capture-stack-trace/-/capture-stack-trace-1.0.1.tgz#a6c0bbe1f38f3aa0b92238ecb6ff42c344d4135d"
   integrity sha512-mYQLZnx5Qt1JgB1WEiMCf2647plpGeQ2NMR/5L0HNZzGQo4fuSPnK+wjfPnKZV0aiJDgzmWqqkV/g7JD+DW0qw==
 
-caseless@~0.12.0:
-  version "0.12.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
-  integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
+chai-as-promised@^7.1.1:
+  version "7.1.1"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/chai-as-promised/-/chai-as-promised-7.1.1.tgz#08645d825deb8696ee61725dbf590c012eb00ca0"
+  integrity sha512-azL6xMoi+uxu6z4rhWQ1jbdUhOMhis2PvscD/xjLqNMkv3BPPp2JyyuTHOrf9BOosGpNQ11v6BKv/g57RXbiaA==
+  dependencies:
+    check-error "^1.0.2"
+
+chai@^4.2.0:
+  version "4.2.0"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/chai/-/chai-4.2.0.tgz#760aa72cf20e3795e84b12877ce0e83737aa29e5"
+  integrity sha512-XQU3bhBukrOsQCuwZndwGcCVQHyZi53fQ6Ys1Fym7E4olpIqqZZhhoFJoaKVvV17lWQoXYwgWN2nF5crA8J2jw==
+  dependencies:
+    assertion-error "^1.1.0"
+    check-error "^1.0.2"
+    deep-eql "^3.0.1"
+    get-func-name "^2.0.0"
+    pathval "^1.1.0"
+    type-detect "^4.0.5"
 
 chalk@^2.0.1:
   version "2.4.2"
@@ -362,6 +348,11 @@ chalk@^2.0.1:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
+
+check-error@^1.0.2:
+  version "1.0.2"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/check-error/-/check-error-1.0.2.tgz#574d312edd88bb5dd8912e9286dd6c0aed4aac82"
+  integrity sha1-V00xLt2Iu13YkS6Sht1sCu1KrII=
 
 chokidar@^2.1.5:
   version "2.1.5"
@@ -432,13 +423,6 @@ color-name@1.1.3:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
   integrity sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=
 
-combined-stream@^1.0.6, combined-stream@~1.0.6:
-  version "1.0.7"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/combined-stream/-/combined-stream-1.0.7.tgz#2d1d24317afb8abe95d6d2c0b07b57813539d828"
-  integrity sha512-brWl9y6vOB1xYPZcpZde3N9zDByXTosAeMDo4p1wzo6UMOX4vumB+TP1RZ76sfE6Md68Q0NJSrE/gbezd4Ul+w==
-  dependencies:
-    delayed-stream "~1.0.0"
-
 component-emitter@^1.2.1:
   version "1.3.0"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/component-emitter/-/component-emitter-1.3.0.tgz#16e4070fba8ae29b679f2215853ee181ab2eabc0"
@@ -491,7 +475,7 @@ copy-descriptor@^0.1.0:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
-core-util-is@1.0.2, core-util-is@~1.0.0:
+core-util-is@~1.0.0:
   version "1.0.2"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
@@ -516,13 +500,6 @@ crypto-random-string@^1.0.0:
   version "1.0.0"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
   integrity sha1-ojD2T1aDEOFJgAmUB5DsmVRbyn4=
-
-dashdash@^1.12.0:
-  version "1.14.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
-  integrity sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
-  dependencies:
-    assert-plus "^1.0.0"
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
@@ -550,6 +527,13 @@ decode-uri-component@^0.2.0:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
   integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
 
+deep-eql@^3.0.1:
+  version "3.0.1"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/deep-eql/-/deep-eql-3.0.1.tgz#dfc9404400ad1c8fe023e7da1df1c147c4b444df"
+  integrity sha512-+QeIQyN5ZuO+3Uk5DYh6/1eKO0m0YmJFGNmFHGACpf1ClL1nmlV/p4gNgbl2pJGxgXb4faqo6UE+M5ACEMyVcw==
+  dependencies:
+    type-detect "^4.0.0"
+
 deep-extend@^0.6.0:
   version "0.6.0"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/deep-extend/-/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
@@ -576,11 +560,6 @@ define-property@^2.0.2:
   dependencies:
     is-descriptor "^1.0.2"
     isobject "^3.0.1"
-
-delayed-stream@~1.0.0:
-  version "1.0.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
-  integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
 
 delegates@^1.0.0:
   version "1.0.0"
@@ -613,14 +592,6 @@ duplexer3@^0.1.4:
   version "0.1.4"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
   integrity sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
-
-ecc-jsbn@~0.1.1:
-  version "0.1.2"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
-  integrity sha1-OoOpBOVDUyh4dMVkt1SThoSamMk=
-  dependencies:
-    jsbn "~0.1.0"
-    safer-buffer "^2.1.0"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -724,11 +695,6 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
     assign-symbols "^1.0.0"
     is-extendable "^1.0.1"
 
-extend@~3.0.2:
-  version "3.0.2"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
-  integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
-
 extglob@^2.0.4:
   version "2.0.4"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/extglob/-/extglob-2.0.4.tgz#ad00fe4dc612a9232e8718711dc5cb5ab0285543"
@@ -742,26 +708,6 @@ extglob@^2.0.4:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
-
-extsprintf@1.3.0:
-  version "1.3.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/extsprintf/-/extsprintf-1.3.0.tgz#96918440e3041a7a414f8c52e3c574eb3c3e1e05"
-  integrity sha1-lpGEQOMEGnpBT4xS48V06zw+HgU=
-
-extsprintf@^1.2.0:
-  version "1.4.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
-  integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
-
-fast-deep-equal@^2.0.1:
-  version "2.0.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
-  integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
-
-fast-json-stable-stringify@^2.0.0:
-  version "2.0.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
-  integrity sha1-1RQsDK7msRifh9OnYREGT4bIu/I=
 
 fill-range@^4.0.0:
   version "4.0.0"
@@ -790,20 +736,6 @@ for-in@^1.0.2:
   version "1.0.2"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
   integrity sha1-gQaNKVqBQuwKxybG4iAMMPttXoA=
-
-forever-agent@~0.6.1:
-  version "0.6.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
-  integrity sha1-+8cfDEGt6zf5bFd60e1C2P2sypE=
-
-form-data@~2.3.2:
-  version "2.3.3"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/form-data/-/form-data-2.3.3.tgz#dcce52c05f644f298c6a7ab936bd724ceffbf3a6"
-  integrity sha512-1lLKB2Mu3aGP1Q/2eCOx0fNbRMe7XdwktwOruhfqqd0rIJWwN4Dh+E3hrPSlDCXnSR7UtZ1N38rVXm+6+MEhJQ==
-  dependencies:
-    asynckit "^0.4.0"
-    combined-stream "^1.0.6"
-    mime-types "^2.1.12"
 
 forwarded@~0.1.2:
   version "0.1.2"
@@ -870,6 +802,11 @@ generic-pool@3.4.2:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/generic-pool/-/generic-pool-3.4.2.tgz#92ff7196520d670839a67308092a12aadf2f6a59"
   integrity sha512-H7cUpwCQSiJmAHM4c/aFu6fUfrhWXW1ncyh8ftxEPMu6AiYkHw9K8br720TGPZJbk5eOH2bynjZD1yPvdDAmag==
 
+get-func-name@^2.0.0:
+  version "2.0.0"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/get-func-name/-/get-func-name-2.0.0.tgz#ead774abee72e20409433a066366023dd6887a41"
+  integrity sha1-6td0q+5y4gQJQzoGY2YCPdaIekE=
+
 get-stream@^3.0.0:
   version "3.0.0"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
@@ -880,13 +817,6 @@ get-value@^2.0.3, get-value@^2.0.6:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
   integrity sha1-3BXKHGcjh8p2vTesCjlbogQqLCg=
 
-getpass@^0.1.1:
-  version "0.1.7"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
-  integrity sha1-Xv+OPmhNVprkyysSgmBOi6YhSfo=
-  dependencies:
-    assert-plus "^1.0.0"
-
 glob-parent@^3.1.0:
   version "3.1.0"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/glob-parent/-/glob-parent-3.1.0.tgz#9e6af6299d8d3bd2bd40430832bd113df906c5ae"
@@ -894,6 +824,18 @@ glob-parent@^3.1.0:
   dependencies:
     is-glob "^3.1.0"
     path-dirname "^1.0.0"
+
+glob@7.0.5:
+  version "7.0.5"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/glob/-/glob-7.0.5.tgz#b4202a69099bbb4d292a7c1b95b6682b67ebdc95"
+  integrity sha1-tCAqaQmbu00pKnwblbZoK2fr3JU=
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.2"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
 
 glob@^7.1.3:
   version "7.1.3"
@@ -935,19 +877,6 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.15"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
   integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
-
-har-schema@^2.0.0:
-  version "2.0.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/har-schema/-/har-schema-2.0.0.tgz#a94c2224ebcac04782a0d9035521f24735b7ec92"
-  integrity sha1-qUwiJOvKwEeCoNkDVSHyRzW37JI=
-
-har-validator@~5.1.0:
-  version "5.1.3"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/har-validator/-/har-validator-5.1.3.tgz#1ef89ebd3e4996557675eed9893110dc350fa080"
-  integrity sha512-sNvOCzEQNr/qrvJgc3UG/kD4QtlHycrzwS+6mfTrrSq97BvaYcPZZI1ZSqGSPR73Cxn4LKTD4PttRwfU7jWq5g==
-  dependencies:
-    ajv "^6.5.5"
-    har-schema "^2.0.0"
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -999,15 +928,6 @@ http-errors@1.6.3, http-errors@~1.6.2, http-errors@~1.6.3:
     inherits "2.0.3"
     setprototypeof "1.1.0"
     statuses ">= 1.4.0 < 2"
-
-http-signature@~1.2.0:
-  version "1.2.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/http-signature/-/http-signature-1.2.0.tgz#9aecd925114772f3d95b65a60abb8f7c18fbace1"
-  integrity sha1-muzZJRFHcvPZW2WmCruPfBj7rOE=
-  dependencies:
-    assert-plus "^1.0.0"
-    jsprim "^1.2.2"
-    sshpk "^1.7.0"
 
 iconv-lite@0.4.23:
   version "0.4.23"
@@ -1230,11 +1150,6 @@ is-stream@^1.0.0, is-stream@^1.1.0:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
   integrity sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
 
-is-typedarray@~1.0.0:
-  version "1.0.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
-  integrity sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
-
 is-windows@^1.0.2:
   version "1.0.2"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/is-windows/-/is-windows-1.0.2.tgz#d1850eb9791ecd18e6182ce12a30f396634bb19d"
@@ -1262,47 +1177,12 @@ isobject@^3.0.0, isobject@^3.0.1:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
-isstream@~0.1.2:
-  version "0.1.2"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
-  integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
-
-jsbn@~0.1.0:
-  version "0.1.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
-  integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
-
-json-schema-traverse@^0.4.1:
-  version "0.4.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
-  integrity sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==
-
-json-schema@0.2.3:
-  version "0.2.3"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/json-schema/-/json-schema-0.2.3.tgz#b480c892e59a2f05954ce727bd3f2a4e882f9e13"
-  integrity sha1-tIDIkuWaLwWVTOcnvT8qTogvnhM=
-
-json-stringify-safe@~5.0.1:
-  version "5.0.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
-  integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
-
 jsonfile@^4.0.0:
   version "4.0.0"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/jsonfile/-/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
   integrity sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=
   optionalDependencies:
     graceful-fs "^4.1.6"
-
-jsprim@^1.2.2:
-  version "1.4.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/jsprim/-/jsprim-1.4.1.tgz#313e66bc1e5cc06e438bc1b7499c2e5c56acb6a2"
-  integrity sha1-MT5mvB5cwG5Di8G3SZwuXFastqI=
-  dependencies:
-    assert-plus "1.0.0"
-    extsprintf "1.3.0"
-    json-schema "0.2.3"
-    verror "1.10.0"
 
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"
@@ -1347,6 +1227,13 @@ lru-cache@^4.0.1:
   dependencies:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
+
+ls@^0.2.1:
+  version "0.2.1"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/ls/-/ls-0.2.1.tgz#0d96cc870600806fae6bd89297dc5c66454cbf71"
+  integrity sha1-DZbMhwYAgG+ua9iSl9xcZkVMv3E=
+  dependencies:
+    glob "7.0.5"
 
 make-dir@^1.0.0:
   version "1.3.0"
@@ -1406,7 +1293,7 @@ mime-db@1.40.0:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/mime-db/-/mime-db-1.40.0.tgz#a65057e998db090f732a68f6c276d387d4126c32"
   integrity sha512-jYdeOMPy9vnxEqFRRo6ZvTZ8d9oPb+k18PKoYNYUe2stVEBPPwsln/qWzdbmaIvnhZ9v2P+CuecK+fpUfsV2mA==
 
-mime-types@^2.1.12, mime-types@~2.1.18, mime-types@~2.1.19, mime-types@~2.1.24:
+mime-types@~2.1.18, mime-types@~2.1.24:
   version "2.1.24"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/mime-types/-/mime-types-2.1.24.tgz#b6f8d0b3e951efb77dedeca194cff6d16f676f81"
   integrity sha512-WaFHS3MCl5fapm3oLxU4eYDw77IQM2ACcxQ9RIxfaC3ooc6PFuBMGZZsYpvoXS5D5QTWPieo1jjLdAm3TBP3cQ==
@@ -1418,7 +1305,7 @@ mime@1.4.1:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/mime/-/mime-1.4.1.tgz#121f9ebc49e3766f311a76e1fa1c8003c4b03aa6"
   integrity sha512-KI1+qOZu5DcW6wayYHSzR/tXKCDC5Om4s1z2QJjDULzLcmf3DvzS7oluY4HCTrc+9FiKmWUgeNLg7W3uIQvxtQ==
 
-minimatch@^3.0.4:
+minimatch@^3.0.2, minimatch@^3.0.4:
   version "3.0.4"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   integrity sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
@@ -1480,11 +1367,6 @@ nan@^2.12.1:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/nan/-/nan-2.13.2.tgz#f51dc7ae66ba7d5d55e1e6d4d8092e802c9aefe7"
   integrity sha512-TghvYc72wlMGMVMluVo9WRJc0mB8KxxF/gZ4YYFy7V2ZQX9l7rgbPg7vjS9mt6U5HXODVFVI2bOduCzwOMv/lw==
 
-nan@~2.10.0:
-  version "2.10.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/nan/-/nan-2.10.0.tgz#96d0cd610ebd58d4b4de9cc0c6828cda99c7548f"
-  integrity sha512-bAdJv7fBLhWC+/Bls0Oza+mvTaNQtP+1RyhhhvD95pgUJz6XM5IzgmxOkItJ9tkoCiplvAnXI1tNmmUD/eScyA==
-
 nanomatch@^1.2.9:
   version "1.2.13"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/nanomatch/-/nanomatch-1.2.13.tgz#b87a8aa4fc0de8fe6be88895b38983ff265bd119"
@@ -1515,22 +1397,6 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
   integrity sha1-KzJxhOiZIQEXeyhWP7XnECrNDKk=
-
-node-pre-gyp@^0.11.0:
-  version "0.11.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/node-pre-gyp/-/node-pre-gyp-0.11.0.tgz#db1f33215272f692cd38f03238e3e9b47c5dd054"
-  integrity sha512-TwWAOZb0j7e9eGaf9esRx3ZcLaE5tQ2lvYy1pb5IAaG1a2e2Kv5Lms1Y4hpj+ciXJRofIxxlt5haeQ/2ANeE0Q==
-  dependencies:
-    detect-libc "^1.0.2"
-    mkdirp "^0.5.1"
-    needle "^2.2.1"
-    nopt "^4.0.1"
-    npm-packlist "^1.1.6"
-    npmlog "^4.0.2"
-    rc "^1.2.7"
-    rimraf "^2.6.1"
-    semver "^5.3.0"
-    tar "^4"
 
 node-pre-gyp@^0.12.0:
   version "0.12.0"
@@ -1633,11 +1499,6 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
-
-oauth-sign@~0.9.0:
-  version "0.9.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
-  integrity sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
 
 object-assign@^4.1.0:
   version "4.1.1"
@@ -1754,10 +1615,10 @@ path-to-regexp@0.1.7:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
 
-performance-now@^2.1.0:
-  version "2.1.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
-  integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
+pathval@^1.1.0:
+  version "1.1.0"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/pathval/-/pathval-1.1.0.tgz#b942e6d4bde653005ef6b71361def8727d0645e0"
+  integrity sha1-uULm1L3mUwBe9rcTYd74cn0GReA=
 
 pify@^3.0.0:
   version "3.0.0"
@@ -1792,30 +1653,22 @@ pseudomap@^1.0.2:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
   integrity sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
 
-psl@^1.1.24:
-  version "1.1.31"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/psl/-/psl-1.1.31.tgz#e9aa86d0101b5b105cbe93ac6b784cd547276184"
-  integrity sha512-/6pt4+C+T+wZUieKR620OpzN/LlnNKuWjy1iFLQ/UG35JqHlR/89MP1d96dUfkf6Dne3TuLQzOYEYshJ+Hx8mw==
-
 pstree.remy@^1.1.6:
   version "1.1.6"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/pstree.remy/-/pstree.remy-1.1.6.tgz#73a55aad9e2d95814927131fbf4dc1b62d259f47"
   integrity sha512-NdF35+QsqD7EgNEI5mkI/X+UwaxVEbQaz9f4IooEmMUv6ZPmlTQYGjBPJGgrlzNdjSvIy4MWMg6Q6vCgBO2K+w==
 
-punycode@^1.4.1:
-  version "1.4.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
-  integrity sha1-wNWmOycYgArY4esPpSachN1BhF4=
-
-punycode@^2.1.0:
-  version "2.1.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
-  integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
-
-qs@6.5.2, qs@~6.5.2:
+qs@6.5.2:
   version "6.5.2"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+
+randomstring@^1.1.5:
+  version "1.1.5"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/randomstring/-/randomstring-1.1.5.tgz#6df0628f75cbd5932930d9fe3ab4e956a18518c3"
+  integrity sha1-bfBij3XL1ZMpMNn+OrTpVqGFGMM=
+  dependencies:
+    array-uniq "1.0.2"
 
 range-parser@~1.2.0:
   version "1.2.0"
@@ -1902,32 +1755,6 @@ repeat-string@^1.6.1:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
   integrity sha1-jcrkcOHIirwtYA//Sndihtp15jc=
 
-request@^2.87.0:
-  version "2.88.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/request/-/request-2.88.0.tgz#9c2fca4f7d35b592efe57c7f0a55e81052124fef"
-  integrity sha512-NAqBSrijGLZdM0WZNsInLJpkJokL72XYjUpnB0iwsRgxh7dB6COrHnTBNwN0E+lHDAJzu7kLAkDeY08z2/A0hg==
-  dependencies:
-    aws-sign2 "~0.7.0"
-    aws4 "^1.8.0"
-    caseless "~0.12.0"
-    combined-stream "~1.0.6"
-    extend "~3.0.2"
-    forever-agent "~0.6.1"
-    form-data "~2.3.2"
-    har-validator "~5.1.0"
-    http-signature "~1.2.0"
-    is-typedarray "~1.0.0"
-    isstream "~0.1.2"
-    json-stringify-safe "~5.0.1"
-    mime-types "~2.1.19"
-    oauth-sign "~0.9.0"
-    performance-now "^2.1.0"
-    qs "~6.5.2"
-    safe-buffer "^5.1.2"
-    tough-cookie "~2.4.3"
-    tunnel-agent "^0.6.0"
-    uuid "^3.3.2"
-
 resolve-url@^0.2.1:
   version "0.2.1"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
@@ -1964,7 +1791,7 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
-"safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
+"safer-buffer@>= 2.1.2 < 3":
   version "2.1.2"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
@@ -2014,6 +1841,15 @@ serve-static@1.13.2:
     escape-html "~1.0.3"
     parseurl "~1.3.2"
     send "0.16.2"
+
+serverless-http@^2.0.1:
+  version "2.0.1"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/serverless-http/-/serverless-http-2.0.1.tgz#8674303471520fb021e210e23a33bc969d99eefc"
+  integrity sha512-ROGjIuEOtgGCmCuVxuCaVrmSmVsISxS4YdKae5AZqPlznLQnQkrUwwemNF0+QA/eEi9XSM3fDUlv4TSNhVJItQ==
+  dependencies:
+    chai-as-promised "^7.1.1"
+  optionalDependencies:
+    "@types/aws-lambda" "^8.10.19"
 
 set-blocking@~2.0.0:
   version "2.0.0"
@@ -2119,30 +1955,6 @@ split-string@^3.0.1, split-string@^3.0.2:
   integrity sha512-NzNVhJDYpwceVVii8/Hu6DKfD2G+NrQHlS/V/qgv763EYudVwEcMQNxd2lh+0VrUByXN/oJkl5grOhYWvQUYiw==
   dependencies:
     extend-shallow "^3.0.0"
-
-sqlite3@^4.0.6:
-  version "4.0.6"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/sqlite3/-/sqlite3-4.0.6.tgz#e587b583b5acc6cb38d4437dedb2572359c080ad"
-  integrity sha512-EqBXxHdKiwvNMRCgml86VTL5TK1i0IKiumnfxykX0gh6H6jaKijAXvE9O1N7+omfNSawR2fOmIyJZcfe8HYWpw==
-  dependencies:
-    nan "~2.10.0"
-    node-pre-gyp "^0.11.0"
-    request "^2.87.0"
-
-sshpk@^1.7.0:
-  version "1.16.1"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/sshpk/-/sshpk-1.16.1.tgz#fb661c0bef29b39db40769ee39fa70093d6f6877"
-  integrity sha512-HXXqVUq7+pcKeLqqZj6mHFUMvXtOJt1uoUx09pFW6011inTMxqI8BA8PM95myrIyyKwdnzjdFjLiE6KBPVtJIg==
-  dependencies:
-    asn1 "~0.2.3"
-    assert-plus "^1.0.0"
-    bcrypt-pbkdf "^1.0.0"
-    dashdash "^1.12.0"
-    ecc-jsbn "~0.1.1"
-    getpass "^0.1.1"
-    jsbn "~0.1.0"
-    safer-buffer "^2.0.2"
-    tweetnacl "~0.14.0"
 
 static-extend@^0.1.1:
   version "0.1.2"
@@ -2282,25 +2094,10 @@ touch@^3.1.0:
   dependencies:
     nopt "~1.0.10"
 
-tough-cookie@~2.4.3:
-  version "2.4.3"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/tough-cookie/-/tough-cookie-2.4.3.tgz#53f36da3f47783b0925afa06ff9f3b165280f781"
-  integrity sha512-Q5srk/4vDM54WJsJio3XNn6K2sCG+CQ8G5Wz6bZhRZoAe/+TxjWB/GlFAnYEbkYVlON9FMk/fE3h2RLpPXo4lQ==
-  dependencies:
-    psl "^1.1.24"
-    punycode "^1.4.1"
-
-tunnel-agent@^0.6.0:
-  version "0.6.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/tunnel-agent/-/tunnel-agent-0.6.0.tgz#27a5dea06b36b04a0a9966774b290868f0fc40fd"
-  integrity sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
-  dependencies:
-    safe-buffer "^5.0.1"
-
-tweetnacl@^0.14.3, tweetnacl@~0.14.0:
-  version "0.14.5"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
-  integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
+type-detect@^4.0.0, type-detect@^4.0.5:
+  version "4.0.8"
+  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
+  integrity sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==
 
 type-is@~1.6.16:
   version "1.6.18"
@@ -2378,13 +2175,6 @@ update-notifier@^2.5.0:
     semver-diff "^2.0.0"
     xdg-basedir "^3.0.0"
 
-uri-js@^4.2.2:
-  version "4.2.2"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/uri-js/-/uri-js-4.2.2.tgz#94c540e1ff772956e2299507c010aea6c8838eb0"
-  integrity sha512-KY9Frmirql91X2Qgjry0Wd4Y+YTdrdZheS8TFwvkbLWf/G5KNJDCh6pKL5OZctEW4+0Baa5idK2ZQuELRwPznQ==
-  dependencies:
-    punycode "^2.1.0"
-
 urix@^0.1.0:
   version "0.1.0"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
@@ -2412,7 +2202,7 @@ utils-merge@1.0.1:
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@3.3.2, uuid@^3.3.2:
+uuid@3.3.2:
   version "3.3.2"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
@@ -2421,15 +2211,6 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
-
-verror@1.10.0:
-  version "1.10.0"
-  resolved "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/verror/-/verror-1.10.0.tgz#3a105ca17053af55d6e270c1f8288682e18da400"
-  integrity sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA=
-  dependencies:
-    assert-plus "^1.0.0"
-    core-util-is "1.0.2"
-    extsprintf "^1.2.0"
 
 which@^1.2.9:
   version "1.3.1"
