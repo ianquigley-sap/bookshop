@@ -1,8 +1,7 @@
 namespace my.bookshop;
 entity Authors {
   key ID : Integer;
-  firstName : String;
-  lastName : String;
+  name : String;
 };
 
 entity Books {
