@@ -7,8 +7,14 @@ const cds = require('@sap/cds')
 
 // app.listen(9000);
 
+var morgan = require('morgan')
 
 
+if (1===2){
+require('../srv/cat-service.cds')
+require('../srv/cat-service')
+require('../db/data-model.cds')
+}
 
 // testing
 
@@ -17,8 +23,12 @@ const cds = require('@sap/cds')
 const express = require('express');
 const serverless = require('serverless-http');
 const app = express();
-// const bodyParser = require('body-parser');
 
+app.use(morgan('dev'))
+
+
+// const bodyParser = require('body-parser');
+//Test
 // const router = express.Router();
 // router.get('/', (req, res) => {
 //     res.writeHead(200, { 'Content-Type': 'text/html' });
@@ -28,11 +38,12 @@ const app = express();
 // router.get('/another', (req, res) => res.json({ route: req.originalUrl }));
 // router.post('/', (req, res) => res.json({ postBody: req.body }));
 //
-// app.use(bodyParser.json());
-// app.use('/.netlify/functions/server', router);  // path must route to lambda
+// // app.use(bodyParser.json());
+// app.use('/.netlify/functions/server3', router);  // path must route to lambda
 
 cds.serve('CatalogService').from('srv').in(app)
-cds.serve('all').in(app)
+cds.serve('all').in(app).at('/.netlify/functions/server3/')
+// app.listen()
 
 module.exports = app;
 module.exports.handler = serverless(app);
