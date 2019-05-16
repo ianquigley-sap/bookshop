@@ -4,16 +4,16 @@
 
 
 [[redirects]]
-  from = "/catalog/Authors"
-  to = "/.netlify/functions/catalog/Authors"
+  from = "/catalog/Authors*"
+  to = "/.netlify/functions/server3/Authors"
   status = 200
 
 [[redirects]]
   from = "/catalog/Books"
-  to = "/.netlify/functions/catalog/Books"
+  to = "/.netlify/functions/server3/Books"
   status = 200
 
 [[redirects]]
   from = "/catalog/$metadata"
-  to = "/.netlify/functions/catalog/$metadata"
+  to = "/.netlify/functions/server3/$metadata"
   status = 200
