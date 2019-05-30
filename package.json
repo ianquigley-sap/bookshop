@@ -18,7 +18,9 @@
     "ls": "^0.2.1",
     "morgan": "^1.9.1",
     "npm-watch": "^0.6.0",
-    "serverless-http": "^2.0.1"
+    "serverless-express": "^2.0.11",
+    "serverless-http": "^2.0.1",
+    "sqlite3": "^4.0.8"
   },
   "watch": {
     "run_cds": {
@@ -41,12 +43,15 @@
       "db": {
         "kind": "sqlite",
         "model": [
-          "db",
           "srv"
         ],
         "credentials": {
           "database": "my.db"
         }
+      },
+      "cat-service": {
+        "kind": "odata",
+        "model": "srv/cat-service"
       }
     }
   },
