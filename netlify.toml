@@ -1,6 +1,7 @@
 [build]
   functions = "functions"
   publish = "ui/webapp"
+  command = "netlify-lambda build functions-source"
 
 
 [[redirects]]
