@@ -1,0 +1,238 @@
+{
+  "_from": "@sap/cds@^3.8.0",
+  "_id": "@sap/cds@3.10.0",
+  "_inBundle": false,
+  "_integrity": "sha512-KvUJtQC85pQemWRkQNRap15KaMr9ss+feGAjB9jve2/R7zBLSs0ZOX+TcxHevu9pF3lAjEHN/wbmDnD4mW2mqw==",
+  "_location": "/@sap/cds",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@sap/cds@^3.8.0",
+    "name": "@sap/cds",
+    "escapedName": "@sap%2fcds",
+    "scope": "@sap",
+    "rawSpec": "^3.8.0",
+    "saveSpec": null,
+    "fetchSpec": "^3.8.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://nexus.wdf.sap.corp:8081/nexus/repository/build.milestones.npm/@sap/cds/-/cds-3.10.0.tgz",
+  "_shasum": "ab726364c503280b045e5522a1c129d3c17de273",
+  "_shrinkwrap": {
+    "name": "@sap/cds",
+    "version": "3.10.0",
+    "lockfileVersion": 1,
+    "requires": true,
+    "dependencies": {
+      "@babel/runtime": {
+        "version": "7.4.4",
+        "requires": {
+          "regenerator-runtime": "^0.13.2"
+        }
+      },
+      "@sap/cds-compiler": {
+        "version": "1.13.4",
+        "requires": {
+          "antlr4": "4.7.1",
+          "resolve": "1.8.1",
+          "sax": "1.2.4"
+        }
+      },
+      "@sap/cds-hana": {
+        "version": "1.11.1",
+        "requires": {
+          "@sap/cds-sql": "1.11.1"
+        }
+      },
+      "@sap/cds-ql": {
+        "version": "1.11.1",
+        "requires": {
+          "@sap/cds-hana": "1.11.1",
+          "@sap/cds-sql": "1.11.1",
+          "@sap/cds-sqlite": "1.11.1",
+          "generic-pool": "3.4.2",
+          "uuid": "3.3.2"
+        }
+      },
+      "@sap/cds-reflect": {
+        "version": "2.5.0"
+      },
+      "@sap/cds-services": {
+        "version": "1.11.1",
+        "requires": {
+          "@sap/cds-ql": "1.11.1",
+          "@sap/odata-server": "1.3.3"
+        }
+      },
+      "@sap/cds-sql": {
+        "version": "1.11.1"
+      },
+      "@sap/cds-sqlite": {
+        "version": "1.11.1",
+        "requires": {
+          "@sap/cds-sql": "1.11.1"
+        }
+      },
+      "@sap/generator-cds": {
+        "version": "2.4.8",
+        "requires": {
+          "fs-extra": "7.0.1",
+          "minimist": "1.2.0",
+          "xml2js": "0.4.19",
+          "yaml": "1.2.0"
+        },
+        "dependencies": {
+          "yaml": {
+            "version": "1.2.0"
+          }
+        }
+      },
+      "@sap/odata-commons": {
+        "version": "2.1.0",
+        "requires": {
+          "big.js": "=5.2.2"
+        }
+      },
+      "@sap/odata-server": {
+        "version": "1.3.3",
+        "requires": {
+          "@sap/odata-commons": "^2.1.0",
+          "xmlbuilder": "=10.1.0"
+        }
+      },
+      "antlr4": {
+        "version": "4.7.1"
+      },
+      "big.js": {
+        "version": "5.2.2"
+      },
+      "fs-extra": {
+        "version": "7.0.1",
+        "requires": {
+          "graceful-fs": "^4.1.2",
+          "jsonfile": "^4.0.0",
+          "universalify": "^0.1.0"
+        }
+      },
+      "generic-pool": {
+        "version": "3.4.2"
+      },
+      "graceful-fs": {
+        "version": "4.1.15"
+      },
+      "jsonfile": {
+        "version": "4.0.0",
+        "requires": {
+          "graceful-fs": "^4.1.6"
+        }
+      },
+      "minimist": {
+        "version": "1.2.0"
+      },
+      "path-parse": {
+        "version": "1.0.6"
+      },
+      "regenerator-runtime": {
+        "version": "0.13.2"
+      },
+      "resolve": {
+        "version": "1.8.1",
+        "requires": {
+          "path-parse": "^1.0.5"
+        }
+      },
+      "sax": {
+        "version": "1.2.4"
+      },
+      "universalify": {
+        "version": "0.1.2"
+      },
+      "uuid": {
+        "version": "3.3.2"
+      },
+      "xml2js": {
+        "version": "0.4.19",
+        "requires": {
+          "sax": ">=0.6.0",
+          "xmlbuilder": "~9.0.1"
+        },
+        "dependencies": {
+          "xmlbuilder": {
+            "version": "9.0.7"
+          }
+        }
+      },
+      "xmlbuilder": {
+        "version": "10.1.0"
+      },
+      "yaml": {
+        "version": "1.5.1",
+        "requires": {
+          "@babel/runtime": "^7.4.4"
+        }
+      }
+    }
+  },
+  "_spec": "@sap/cds@^3.8.0",
+  "_where": "/Users/i305274/Documents/GitHub/bookshop-ian",
+  "bin": {
+    "cds": "bin/cds.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@sap/cds-compiler": "1.13.4",
+    "@sap/cds-ql": "1.11.1",
+    "@sap/cds-reflect": "2.5.0",
+    "@sap/cds-services": "1.11.1",
+    "@sap/generator-cds": "2.4.8",
+    "fs-extra": "7.0.1",
+    "yaml": "1.5.1"
+  },
+  "deprecated": false,
+  "description": "Entry Point and API Facade for CDS",
+  "engines": {
+    "node": ">=8.9"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2018
+    },
+    "rules": {
+      "no-unused-vars": [
+        "warn",
+        {
+          "argsIgnorePattern": "lazy"
+        }
+      ]
+    }
+  },
+  "eslintIgnore": [
+    "tests/",
+    "gen/",
+    "reports/"
+  ],
+  "files": [
+    "apis/",
+    "bin/",
+    "lib/",
+    "_i18n/",
+    "server.js",
+    "common.cds",
+    "npm-shrinkwrap.json"
+  ],
+  "main": "lib/cds.js",
+  "name": "@sap/cds",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "typings": "apis/cds.d.ts",
+  "version": "3.10.0"
+}

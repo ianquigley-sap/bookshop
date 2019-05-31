@@ -1,0 +1,155 @@
+{
+  "name": "@sap/cds",
+  "version": "3.10.0",
+  "lockfileVersion": 1,
+  "requires": true,
+  "dependencies": {
+    "@babel/runtime": {
+      "version": "7.4.4",
+      "requires": {
+        "regenerator-runtime": "^0.13.2"
+      }
+    },
+    "@sap/cds-compiler": {
+      "version": "1.13.4",
+      "requires": {
+        "antlr4": "4.7.1",
+        "resolve": "1.8.1",
+        "sax": "1.2.4"
+      }
+    },
+    "@sap/cds-hana": {
+      "version": "1.11.1",
+      "requires": {
+        "@sap/cds-sql": "1.11.1"
+      }
+    },
+    "@sap/cds-ql": {
+      "version": "1.11.1",
+      "requires": {
+        "@sap/cds-hana": "1.11.1",
+        "@sap/cds-sql": "1.11.1",
+        "@sap/cds-sqlite": "1.11.1",
+        "generic-pool": "3.4.2",
+        "uuid": "3.3.2"
+      }
+    },
+    "@sap/cds-reflect": {
+      "version": "2.5.0"
+    },
+    "@sap/cds-services": {
+      "version": "1.11.1",
+      "requires": {
+        "@sap/cds-ql": "1.11.1",
+        "@sap/odata-server": "1.3.3"
+      }
+    },
+    "@sap/cds-sql": {
+      "version": "1.11.1"
+    },
+    "@sap/cds-sqlite": {
+      "version": "1.11.1",
+      "requires": {
+        "@sap/cds-sql": "1.11.1"
+      }
+    },
+    "@sap/generator-cds": {
+      "version": "2.4.8",
+      "requires": {
+        "fs-extra": "7.0.1",
+        "minimist": "1.2.0",
+        "xml2js": "0.4.19",
+        "yaml": "1.2.0"
+      },
+      "dependencies": {
+        "yaml": {
+          "version": "1.2.0"
+        }
+      }
+    },
+    "@sap/odata-commons": {
+      "version": "2.1.0",
+      "requires": {
+        "big.js": "=5.2.2"
+      }
+    },
+    "@sap/odata-server": {
+      "version": "1.3.3",
+      "requires": {
+        "@sap/odata-commons": "^2.1.0",
+        "xmlbuilder": "=10.1.0"
+      }
+    },
+    "antlr4": {
+      "version": "4.7.1"
+    },
+    "big.js": {
+      "version": "5.2.2"
+    },
+    "fs-extra": {
+      "version": "7.0.1",
+      "requires": {
+        "graceful-fs": "^4.1.2",
+        "jsonfile": "^4.0.0",
+        "universalify": "^0.1.0"
+      }
+    },
+    "generic-pool": {
+      "version": "3.4.2"
+    },
+    "graceful-fs": {
+      "version": "4.1.15"
+    },
+    "jsonfile": {
+      "version": "4.0.0",
+      "requires": {
+        "graceful-fs": "^4.1.6"
+      }
+    },
+    "minimist": {
+      "version": "1.2.0"
+    },
+    "path-parse": {
+      "version": "1.0.6"
+    },
+    "regenerator-runtime": {
+      "version": "0.13.2"
+    },
+    "resolve": {
+      "version": "1.8.1",
+      "requires": {
+        "path-parse": "^1.0.5"
+      }
+    },
+    "sax": {
+      "version": "1.2.4"
+    },
+    "universalify": {
+      "version": "0.1.2"
+    },
+    "uuid": {
+      "version": "3.3.2"
+    },
+    "xml2js": {
+      "version": "0.4.19",
+      "requires": {
+        "sax": ">=0.6.0",
+        "xmlbuilder": "~9.0.1"
+      },
+      "dependencies": {
+        "xmlbuilder": {
+          "version": "9.0.7"
+        }
+      }
+    },
+    "xmlbuilder": {
+      "version": "10.1.0"
+    },
+    "yaml": {
+      "version": "1.5.1",
+      "requires": {
+        "@babel/runtime": "^7.4.4"
+      }
+    }
+  }
+}
