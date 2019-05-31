@@ -1,0 +1,67 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+
+This project adheres to [Semantic Versioning](http://semver.org/).
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/).
+
+## Version 2.5.0 - 2019-05-03
+
+### Added
+- Extends `EventEmitter`
+
+### Fixed
+- `model.services` now really filters
+- `cds.infer` supports paths with filters
+
+## Version 2.4.1 - 2019-04-09
+
+### Fixed
+- Code clean-up
+
+## Version 2.4.0 - 2019-02-27
+
+### Fixed
+- Misc
+
+## Version 2.3.0 - tbd
+
+### Changed
+- The minimum required Node.js version is now set more specifically to _8.9_ LTS.  Previously, just Node.js 8 was mentioned.
+
+### Fixed
+- Compatibility fixes for newer CSN versions
+
+## Version 2.2.1 - 2019-01-24
+
+### Fixed
+
+- Getter for `linked_entity.source`
+
+## Version 2.2.0
+
+### Added
+- Getter for `linked_entity.source` (better use: `linked_entity.query.target`)
+
+## Version 2.0.5
+### Features
+- Seperated iteration and recursion `.foreach` is now iteration only, use `.forall` to visit all definitions recursively.
+
+## Version 1.8.0
+### Features
+- Entities and services can be retrieved with namespace scope
+
+## Version 1.7.0
+### Changes
+- Clean up of TypeScript APIs
+
+## Version 1.6.0
+### Features
+- Getters for entities and services
+- Infer keys for managed associations
+- Support for getting entities and services with namespace, e.g. `cds.reflect(m).entities ('my.bookshop')`
+
+## Version 1.5.0
+### Fixes
+- Fixes for linking associations and foreign keys

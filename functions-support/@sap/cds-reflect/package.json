@@ -1,0 +1,41 @@
+{
+  "_from": "@sap/cds-reflect",
+  "_id": "@sap/cds-reflect@2.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-dAMGlG+t6FvheTp+BqAzmvXt1ZuVZAdkQZ2mZiI2bRQM4TUmqLneDVVGzc795CsVTuuBU3J4WYHzS1blD/hSqw==",
+  "_location": "/@sap/cds-reflect",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@sap/cds-reflect",
+    "name": "@sap/cds-reflect",
+    "escapedName": "@sap%2fcds-reflect",
+    "scope": "@sap",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://npm.sap.com/@sap/cds-reflect/-/cds-reflect-2.5.0.tgz",
+  "_shasum": "c863c1e7dcc14987176fd1deacbee5ebb7325364",
+  "_shrinkwrap": {
+    "name": "@sap/cds-reflect",
+    "version": "2.5.0",
+    "lockfileVersion": 1
+  },
+  "_spec": "@sap/cds-reflect",
+  "_where": "/Users/i305274/Documents/GitHub/bookshop-ian",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Reflection for CDS Models",
+  "engines": {
+    "node": ">=8.9"
+  },
+  "license": "SEE LICENSE IN developer-license-3.1.txt",
+  "name": "@sap/cds-reflect",
+  "version": "2.5.0"
+}

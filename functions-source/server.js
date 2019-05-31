@@ -1,6 +1,7 @@
 'use strict';
 const express = require("serverless-express/express");
 const app = express();
+require("../functions-support/@sap/cds-reflect");
 const cds = require("../functions-support/@sap/cds");
 
 // app.use(morgan('dev'))

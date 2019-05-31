@@ -2,3 +2,4 @@ node_modules/
 myOLD.db
 my.db
 /my.db
+functions/server.js
