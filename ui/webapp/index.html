@@ -7,7 +7,7 @@
 
 		<title>ui5</title>
 		<!--		Hack to start the backend function-->
-		<script src=".netlify/functions/server3"></script>
+		<script src=".netlify/functions/server"></script>
 		<script>
 			// Pings the server until it responds succesfully
 			const fetch_retry = (url, n, options) => fetch(url, options).catch(function(error) {
@@ -20,7 +20,7 @@
 			});
 			
 			// ping server again, just to verify if intial requesr failed and to gauge timing and number of attempts before 200
-			fetch_retry('.netlify/functions/server3', 100);
+			fetch_retry('.netlify/functions/server', 100);
 		</script>
 
 		<script id="sap-ui-bootstrap"
@@ -36,7 +36,7 @@
 
 		<script>
 			// ping server again to keep it awake
-			fetch_retry('.netlify/functions/server3', 100);
+			fetch_retry('.netlify/functions/server', 100);
 			sap.ui.getCore().attachInit(function() {
 				new sap.m.Shell({
 					app: new sap.ui.core.ComponentContainer({
