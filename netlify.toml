@@ -6,18 +6,18 @@
 
 [[redirects]]
   from = "/catalog/Authors"
-  to = "/.netlify/functions/server3/Authors"
+  to = "/.netlify/functions/server/Authors"
   status = 200
   force = true
 
 [[redirects]]
   from = "/catalog/Books"
-  to = "/.netlify/functions/server3/Books"
+  to = "/.netlify/functions/server/Books"
   status = 200
   force = true
 
 [[redirects]]
   from = "/catalog/$metadata"
-  to = "/.netlify/functions/server3/$metadata"
+  to = "/.netlify/functions/server/$metadata"
   status = 200
   force = true
